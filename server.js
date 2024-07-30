@@ -9,3 +9,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api, api');
 app.use(express.static('public'));
+
+app.get('/notes', (req, res) => 
+    res.sendFile(path.join(_dirname, '/public/notes.html'))
+);
+
