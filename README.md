@@ -18,7 +18,7 @@
 
   The application will be available at: http://localhost:3001.
 
-  To view my deployed application, visit: []
+  To view my deployed application, visit: [https://connor-neale-note-taker.onrender.com/]
 
   ## License
     
